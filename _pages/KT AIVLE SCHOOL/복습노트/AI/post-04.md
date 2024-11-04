@@ -6,7 +6,7 @@ tags:
     - YOLO
     - Roboflow
 date: "2024-11-04"
-thumbnail: "/assets/img/thumbnail/ncomputervision.PNG"
+thumbnail: "/assets/img/thumbnail/computervision.PNG"
 ---
 
 # 제목
