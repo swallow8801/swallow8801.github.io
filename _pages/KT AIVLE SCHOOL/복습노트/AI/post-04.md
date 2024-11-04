@@ -1,14 +1,15 @@
 ---
-title: "Classic Literature #1: Romeo and Juliet"
+title: "8-9주차 복습노트"
 tags:
-    - book
-    - epic novel
-    - romance
-date: "2023-12-04"
-thumbnail: "/assets/img/thumbnail/nightgardenflower.jpg"
+    - CNN
+    - Object Detection
+    - YOLO
+    - Roboflow
+date: "2024-11-04"
+thumbnail: "/assets/img/thumbnail/ncomputervision.PNG"
 ---
 
-# About the book
+# 제목
 ---
 * Author: [William Shakespeare](https://en.wikipedia.org/wiki/William_Shakespeare)
 * Country: England
