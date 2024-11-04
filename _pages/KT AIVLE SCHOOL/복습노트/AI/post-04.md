@@ -15,4 +15,17 @@ thumbnail: "/assets/img/thumbnail/computervision.PNG"
 
 # CNN 기초
 ---
-CNN 어쩌구 저쩌구
+CNN 너무 어려워요 ㅠㅠ
+
+
+# Object Detection
+---
+객체 탐지에 대해서 어쩌구 저쩌구....
+
+
+# Pre-Trained Model
+---
+## YOLO
+
+## ROBOFLOW
+
