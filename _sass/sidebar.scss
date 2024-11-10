@@ -50,12 +50,12 @@
     width:9rem;
     aspect-ratio:1;
     border-radius:50%;
-    outline:4.5rem solid rgba(64,64,64,0.5);
-    outline-offset:-4.5rem;
+    //outline:4.5rem solid rgba(64,64,64,0.5);
+    //outline-offset:-4.5rem;
     transition:.3s;
 
     &:hover {
-      outline:4px solid orange;
+      outline:4px solid hsl(240, 71%, 86%);
       outline-offset:8px;
     }
   }
@@ -139,7 +139,7 @@
     width:2.75rem;
     aspect-ratio:1;
     text-align:center;
-    background:hsl(239, 100%, 78%);
+    background:hsl(240, 71%, 86%);
     border:none;
     border-radius:50%;
     margin-left:1rem;
