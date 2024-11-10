@@ -19,7 +19,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 
 
 ### 전재엽
-[코드 확인]()
+[코드 확인](https://colab.research.google.com/drive/1P2mQOq6D0vX9Lqb5ykraQsMiJ8BhhDRL?usp=sharing)
 - 전처리 과정에서 csv파일을 이용한 Labeled_Dataset을 구성
 - 모델(ResNetV50)에서 Transfer-Learning 진행
 - Augmentation Layers를 TestImage에 맞춰 3개의 Aug_Layers를 추가함
