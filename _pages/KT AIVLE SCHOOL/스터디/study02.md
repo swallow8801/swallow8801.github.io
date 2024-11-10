@@ -41,7 +41,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 [코드 확인]()
 - 모델(ResNetV101)에서 Transfer-Learning 진행
 - sample_submission.csv에서 요구하는 이미지에서 Class를 예측하는 모델을 인지하고 진행함
-- 저해상도 Train Data를 사용했으나 성능이 크게 향상되지 않음
+- 저해상도 Train Data를 사용했으나 성능이 크게 향상되지 않아 Upscale Train Data 사용
 - **ImageNet에서 새 이미지만을 학습한 모델의 권한 요청을 시도하고 활용할 계획을 가짐**
 
 ### 오진석
@@ -57,3 +57,10 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 - 공부를 위해 YOLO모델을 사용하기로 함
 - Train Image의 쓸데없는 배경이 학습에 도움되지 않을 것이라고 판단. 새를 먼저 객체탐지(Object-Detection)한 후 Crop하는 과정을 거쳐 전처리 과정을 거침
 - ReduceLROnPlateau() 메서드 사용 : 학습 중에 주기적으로 검증 데이터셋의 손실을 모니터링하고, 미리 정의된 조건에 따라 학습률을 감소시킴.
+
+---
+### 공통 주제
+1. Upscale_Data 활용방안에 대해 : 별도로 주어진 Upscale_image를 어떻게 활용할 것인지
+2. Keras VS PyTorch : 수업중 진행한 익숙한 Keras를 사용할 지, 공모전이서 주로 사용되는 PyTorch를 배우면서 진행할 지
+3. Ensemble : TOP5 의 앙상블 기법이 상당히 많음. 여러 모델을 사용하며 앙상블하는 방법에 대한 고민
+4. GPU : 학습시간이 굉장히 오래걸려 여러 시도를 하기 힘들었던 것 같음.
