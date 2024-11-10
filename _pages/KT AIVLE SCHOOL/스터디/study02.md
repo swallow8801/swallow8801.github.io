@@ -10,6 +10,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 ---
 * DACON 진행상황 공유
 * 언어지능 딥러닝 복습
+* 공모전 주제 선정
 
 ## DACON 진행상황 공유
 ---
@@ -64,3 +65,14 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 2. Keras VS PyTorch : 수업중 진행한 익숙한 Keras를 사용할 지, 공모전이서 주로 사용되는 PyTorch를 배우면서 진행할 지
 3. Ensemble : TOP5 의 앙상블 기법이 상당히 많음. 여러 모델을 사용하며 앙상블하는 방법에 대한 고민
 4. GPU : 학습시간이 굉장히 오래걸려 여러 시도를 하기 힘들었던 것 같음.
+
+---
+## 공모전 주제 선정
+---
+### 2024 청소년데이터 분석활용 공모전 
+![Cont1](/assets/img/study/cont1.PNG)
+
+### 2024 문화체육관광 데이터 활용대회
+![Cont2](/assets/img/study/cont2.PNG)
+
+4명,4명으로 나누어 각자 원하는 공모전에 도전할 계획을 세우며 마무리했습니다.
