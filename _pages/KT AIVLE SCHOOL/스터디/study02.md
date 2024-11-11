@@ -31,7 +31,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 
 
 ### 이성훈
-[코드 확인]()
+[코드 확인](https://drive.google.com/file/d/1qfPRB1c5jbMp_upZxz3WS478fGr3YKxw/view?usp=drive_link)
 - 모델(ResNetV50)에서 Transfer-Learning 진행
 - EarlyStopping을 주고 학습을 시킨 결과 멈추지 않고 계속해서 Epoch가 진행됨.
 - Val_Acc 가 0.2에서 개선되지 않아 **Keras가 아닌 PyTorch 모델 구현을 고려함**
