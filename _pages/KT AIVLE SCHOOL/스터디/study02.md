@@ -39,14 +39,14 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 - swin_v2 모델이 성능이 뛰어났던 것으로 확인함.
 
 ### 이상화
-[코드 확인]()
+[코드 확인](https://drive.google.com/file/d/1DmUGcA7jcD-sr7-8ZX-erjcIgYQ5fXLE/view?usp=drive_link)
 - 모델(ResNetV101)에서 Transfer-Learning 진행
 - sample_submission.csv에서 요구하는 이미지에서 Class를 예측하는 모델을 인지하고 진행함
 - 저해상도 Train Data를 사용했으나 성능이 크게 향상되지 않아 Upscale Train Data 사용
 - **ImageNet에서 새 이미지만을 학습한 모델의 권한 요청을 시도하고 활용할 계획을 가짐**
 
 ### 오진석
-[코드 확인]()
+[코드 확인](https://drive.google.com/file/d/1jwImghSUUNu2XeHL5vsevtBWXB6raTbG/view?usp=drive_link)
 - 전처리 과정에서 csv파일을 이용한 Labeled_Dataset을 구성
 - 모델(???????)에서 Transfer-Learning 진행
 - **Augmentation Layers를 base_model 뒤에 배치하였으나, 피드백을 통해 모델 구조를 새로 수정함**
@@ -54,7 +54,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 - 하지만 Test F1-Score 는 0.06 으로 저조한 성적이 나와 개선할 필요가 있음.
 
 ### 송명재
-[코드 확인]()
+[코드 확인](https://drive.google.com/file/d/1kewBVVD4A_m4xYSe3BT-tOWEnwxpQ5Wo/view?usp=drive_link)
 - 공부를 위해 YOLO모델을 사용하기로 함
 - Train Image의 쓸데없는 배경이 학습에 도움되지 않을 것이라고 판단. 새를 먼저 객체탐지(Object-Detection)한 후 Crop하는 과정을 거쳐 전처리 과정을 거침
 - ReduceLROnPlateau() 메서드 사용 : 학습 중에 주기적으로 검증 데이터셋의 손실을 모니터링하고, 미리 정의된 조건에 따라 학습률을 감소시킴.
