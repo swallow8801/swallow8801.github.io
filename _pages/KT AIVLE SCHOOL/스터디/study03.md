@@ -32,8 +32,8 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 - **비즈니스 평가**
     - 공휴일 4/3/2일전에 발주량을 많이 해야할 것.
     - 11월은 전체적으로 판매량이 높아 안전 재고로 남기는 것이 좋아보였음.
----
 
+---
 ### 28조
 - 인원 : 전재엽, 오진석, 송명재
 - [발표자료](https://docs.google.com/presentation/d/1C9mm9pbhM1d3nky-IPDG_GyIPwj706UT/edit?usp=drive_link&ouid=110582999063746602025&rtpof=true&sd=true)
