@@ -96,7 +96,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 ### 2. Holt-Winter Exponential Smoothing
 이게 뭘까요? 계절적 특성 분석을 위해 사용했던 것입니다.
 
-### 3. ADF,PADF 자기상관성 분석
+### 3. ACF,PACF 자기상관성 분석
 이게 뭘까요? 자기상관성은 뭐고 어떻게 분석하는 걸까요?
 
 ### 4. ARIMA, SARIMA
