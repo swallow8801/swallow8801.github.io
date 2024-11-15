@@ -8,6 +8,6 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 
 # 회의 주제
 ---
-* 미니프로젝트 6차 리뷰
+* 6차 미니프로젝트("시계열 데이터 기반 상품 판매량 예측") 리뷰
 
-## DACON 진행상황 공유
+## 미니프로젝트
