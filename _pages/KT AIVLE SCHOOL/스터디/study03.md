@@ -97,7 +97,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 
 
 ### 2. Holt-Winter Exponential Smoothing
-이게 뭘까요? 계절적 특성 분석을 위해 사용했던 것입니다.
+
 
 ### 3. ACF,PACF 자기상관성 분석
 이게 뭘까요? 자기상관성은 뭐고 어떻게 분석하는 걸까요?
@@ -111,11 +111,7 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 #### 성능평가지표 및 함수 소개
 ![Inf_mape](/assets/img/study/inf_mape.PNG)
 - SMAPE(Symmetric Mean Absolute Percentage Error)
-
-$\text{Log MAPE} = \frac{100}{n} \sum_{i=1}^{n} \left| \log(y_i + \epsilon) - \log(\hat{y}_i + \epsilon) \right|$
 - Log MAPE (로그값을 취한 MAPE)
-
-$\text{SMAPE} = \frac{100}{n} \sum_{i=1}^{n} \frac{2 \cdot |y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|}$
 - Filtered MAPE (0값을 제외한 MAPE)
 
 #### 출력결과
