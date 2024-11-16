@@ -112,10 +112,10 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 ![Inf_mape](/assets/img/study/inf_mape.PNG)
 - SMAPE(Symmetric Mean Absolute Percentage Error)
 
-$$\text{Log MAPE} = \frac{100}{n} \sum_{i=1}^{n} \left| \log(y_i + \epsilon) - \log(\hat{y}_i + \epsilon) \right|$$
+$\text{Log MAPE} = \frac{100}{n} \sum_{i=1}^{n} \left| \log(y_i + \epsilon) - \log(\hat{y}_i + \epsilon) \right|$
 - Log MAPE (로그값을 취한 MAPE)
 
-$$\text{SMAPE} = \frac{100}{n} \sum_{i=1}^{n} \frac{2 \cdot |y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|}$$
+$\text{SMAPE} = \frac{100}{n} \sum_{i=1}^{n} \frac{2 \cdot |y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|}$
 - Filtered MAPE (0값을 제외한 MAPE)
 
 #### 출력결과
