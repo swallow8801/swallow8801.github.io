@@ -91,7 +91,10 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 ---
 
 ### 1. 딥러닝모델 GridSearch
-딥러닝 모델로도 GridSearch를 통한 하이퍼파라미터 색출 과정을 가질 수 있더라
+![DNN GridSearch](/assets/img/study/GridSearch.PNG)
+- 딥러닝 모델 역시 GridSearch를 통해 최적의 파라미터를 찾을 수 있다.
+- 은닉층, learning_rate, batch_size, epochs 등을 조절할 수 있다.
+
 
 ### 2. Holt-Winter Exponential Smoothing
 이게 뭘까요? 계절적 특성 분석을 위해 사용했던 것입니다.
@@ -102,5 +105,18 @@ thumbnail: "/assets/img/thumbnail/study.jpg"
 ### 4. ARIMA, SARIMA
 계절적 특성을 지닌 데이터를 처리하는 데에 적합한 모델이라고 하는데 뭘까요?
 
-### 5. 시뮬레이터 개선
-재고 시뮬레이터의 개선사항으로 어떤 것이 있을까? 시간이 없어서 못해본 것들...
+### 5. Infinite MAPE
+- 실제값이 0이 있을 경우 MAPE가 무한대의 값으로 수렴하게 되는 문제가 발생한다.
+
+#### 성능평가지표 및 함수 소개
+![Inf_mape](/assets/img/study/inf_mape.PNG)
+- SMAPE(Symmetric Mean Absolute Percentage Error)
+
+$$\text{Log MAPE} = \frac{100}{n} \sum_{i=1}^{n} \left| \log(y_i + \epsilon) - \log(\hat{y}_i + \epsilon) \right|$$
+- Log MAPE (로그값을 취한 MAPE)
+
+$$\text{SMAPE} = \frac{100}{n} \sum_{i=1}^{n} \frac{2 \cdot |y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|}$$
+- Filtered MAPE (0값을 제외한 MAPE)
+
+#### 출력결과
+![Inf_mape_result](/assets/img/study/inf_mape_result.PNG)
