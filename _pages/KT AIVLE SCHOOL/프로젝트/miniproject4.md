@@ -442,6 +442,8 @@ for subset in subsets:
 ```
 
 ## FineTuning
+
+### 여러 Tuning 방법을 고민해보고 발표자료를 만듬.
 [발표자료PPT 확인](https://docs.google.com/presentation/d/1XEtH56wZRzJR0SsM4oySK8OZSsKenQJA/edit?usp=drive_link&ouid=110582999063746602025&rtpof=true&sd=true)
 
 # 느낀점
